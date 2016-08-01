@@ -8,7 +8,13 @@
 
 #import "ViewController.h"
 
+#import "WeatherView.h"
+
+
 @interface ViewController ()
+
+@property (nonatomic,strong) WeatherView *weatherView;
+
 
 @end
 
@@ -16,7 +22,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    //天气的View
+    _weatherView                     = [[WeatherView alloc] initWithFrame:self.view.bounds];
+    _weatherView.layer.masksToBounds = YES; // 视图图层上的子图层，超出父图层的部分裁剪掉
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
