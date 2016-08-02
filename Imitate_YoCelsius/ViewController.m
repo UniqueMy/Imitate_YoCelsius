@@ -27,7 +27,7 @@
     _weatherView                     = [[WeatherView alloc] initWithFrame:self.view.bounds];
     _weatherView.layer.masksToBounds = YES; // 视图图层上的子图层，超出父图层的部分裁剪掉
     
-    
+   
 }
 
 - (void)didReceiveMemoryWarning {

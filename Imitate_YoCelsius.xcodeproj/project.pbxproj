@@ -13,6 +13,20 @@
 		630BADE81D4F229000E3A25D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630BADE61D4F229000E3A25D /* Main.storyboard */; };
 		630BADED1D4F229000E3A25D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630BADEB1D4F229000E3A25D /* LaunchScreen.storyboard */; };
 		630BADF51D4F255000E3A25D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630BADF41D4F255000E3A25D /* Images.xcassets */; };
+		6325BF0E1D5039C1006DD4DF /* HumidityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325BF0D1D5039C1006DD4DF /* HumidityView.m */; };
+		6325BF111D5039D3006DD4DF /* WeatherInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325BF101D5039D3006DD4DF /* WeatherInfoView.m */; };
+		6325BF141D5039EE006DD4DF /* TemperatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325BF131D5039EE006DD4DF /* TemperatureView.m */; };
+		6325BF171D503A05006DD4DF /* SunInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325BF161D503A05006DD4DF /* SunInfoView.m */; };
+		6325BF1A1D503A23006DD4DF /* MaxMinTempView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325BF191D503A23006DD4DF /* MaxMinTempView.m */; };
+		6325BF1D1D503A31006DD4DF /* WindSpeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325BF1C1D503A31006DD4DF /* WindSpeedView.m */; };
+		6325BF221D503C97006DD4DF /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325BF211D503C97006DD4DF /* UIView+SetRect.m */; };
+		6325BF261D50432D006DD4DF /* TitleMoveLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325BF251D50432D006DD4DF /* TitleMoveLabel.m */; };
+		6325BF291D5071CE006DD4DF /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6325BF281D5071CE006DD4DF /* Lato-Bold.ttf */; };
+		6325BF2B1D5071D8006DD4DF /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6325BF2A1D5071D8006DD4DF /* Lato-ThinItalic.ttf */; };
+		6325BF2D1D5071E4006DD4DF /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6325BF2C1D5071E4006DD4DF /* Lato-Thin.ttf */; };
+		6325BF2F1D5071E9006DD4DF /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6325BF2E1D5071E9006DD4DF /* Lato-Regular.ttf */; };
+		6325BF311D5071EE006DD4DF /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6325BF301D5071EE006DD4DF /* Lato-Light.ttf */; };
+		6325BF331D5071F7006DD4DF /* Weather&Time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6325BF321D5071F7006DD4DF /* Weather&Time.ttf */; };
 		637FD7081D4F3F3400BAA8C7 /* WeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 637FD7071D4F3F3400BAA8C7 /* WeatherView.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +41,29 @@
 		630BADEC1D4F229000E3A25D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		630BADEE1D4F229000E3A25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		630BADF41D4F255000E3A25D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6325BF0C1D5039C1006DD4DF /* HumidityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumidityView.h; sourceTree = "<group>"; };
+		6325BF0D1D5039C1006DD4DF /* HumidityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumidityView.m; sourceTree = "<group>"; };
+		6325BF0F1D5039D3006DD4DF /* WeatherInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherInfoView.h; sourceTree = "<group>"; };
+		6325BF101D5039D3006DD4DF /* WeatherInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherInfoView.m; sourceTree = "<group>"; };
+		6325BF121D5039EE006DD4DF /* TemperatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureView.h; sourceTree = "<group>"; };
+		6325BF131D5039EE006DD4DF /* TemperatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureView.m; sourceTree = "<group>"; };
+		6325BF151D503A05006DD4DF /* SunInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunInfoView.h; sourceTree = "<group>"; };
+		6325BF161D503A05006DD4DF /* SunInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunInfoView.m; sourceTree = "<group>"; };
+		6325BF181D503A23006DD4DF /* MaxMinTempView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxMinTempView.h; sourceTree = "<group>"; };
+		6325BF191D503A23006DD4DF /* MaxMinTempView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxMinTempView.m; sourceTree = "<group>"; };
+		6325BF1B1D503A31006DD4DF /* WindSpeedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindSpeedView.h; sourceTree = "<group>"; };
+		6325BF1C1D503A31006DD4DF /* WindSpeedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindSpeedView.m; sourceTree = "<group>"; };
+		6325BF1E1D503AB6006DD4DF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6325BF201D503C97006DD4DF /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
+		6325BF211D503C97006DD4DF /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
+		6325BF241D50432D006DD4DF /* TitleMoveLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleMoveLabel.h; sourceTree = "<group>"; };
+		6325BF251D50432D006DD4DF /* TitleMoveLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleMoveLabel.m; sourceTree = "<group>"; };
+		6325BF281D5071CE006DD4DF /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		6325BF2A1D5071D8006DD4DF /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		6325BF2C1D5071E4006DD4DF /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		6325BF2E1D5071E9006DD4DF /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		6325BF301D5071EE006DD4DF /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		6325BF321D5071F7006DD4DF /* Weather&Time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Weather&Time.ttf"; sourceTree = "<group>"; };
 		637FD7061D4F3F3400BAA8C7 /* WeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherView.h; sourceTree = "<group>"; };
 		637FD7071D4F3F3400BAA8C7 /* WeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,11 +102,10 @@
 				630BADE11D4F229000E3A25D /* AppDelegate.m */,
 				630BADE31D4F229000E3A25D /* ViewController.h */,
 				630BADE41D4F229000E3A25D /* ViewController.m */,
+				6325BF1E1D503AB6006DD4DF /* PrefixHeader.pch */,
+				6325BF1F1D503C31006DD4DF /* SetRect */,
 				637FD7051D4F3F0D00BAA8C7 /* CustomView */,
-				630BADE61D4F229000E3A25D /* Main.storyboard */,
-				630BADEB1D4F229000E3A25D /* LaunchScreen.storyboard */,
-				630BADEE1D4F229000E3A25D /* Info.plist */,
-				630BADF41D4F255000E3A25D /* Images.xcassets */,
+				6325BF271D50719C006DD4DF /* OtherFiles */,
 				630BADDD1D4F229000E3A25D /* Supporting Files */,
 			);
 			path = Imitate_YoCelsius;
@@ -83,11 +119,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		637FD7051D4F3F0D00BAA8C7 /* CustomView */ = {
+		6325BF1F1D503C31006DD4DF /* SetRect */ = {
+			isa = PBXGroup;
+			children = (
+				6325BF201D503C97006DD4DF /* UIView+SetRect.h */,
+				6325BF211D503C97006DD4DF /* UIView+SetRect.m */,
+			);
+			name = SetRect;
+			sourceTree = "<group>";
+		};
+		6325BF231D5042ED006DD4DF /* WeatherView */ = {
 			isa = PBXGroup;
 			children = (
 				637FD7061D4F3F3400BAA8C7 /* WeatherView.h */,
 				637FD7071D4F3F3400BAA8C7 /* WeatherView.m */,
+				6325BF0F1D5039D3006DD4DF /* WeatherInfoView.h */,
+				6325BF101D5039D3006DD4DF /* WeatherInfoView.m */,
+				6325BF121D5039EE006DD4DF /* TemperatureView.h */,
+				6325BF131D5039EE006DD4DF /* TemperatureView.m */,
+				6325BF0C1D5039C1006DD4DF /* HumidityView.h */,
+				6325BF0D1D5039C1006DD4DF /* HumidityView.m */,
+				6325BF151D503A05006DD4DF /* SunInfoView.h */,
+				6325BF161D503A05006DD4DF /* SunInfoView.m */,
+				6325BF181D503A23006DD4DF /* MaxMinTempView.h */,
+				6325BF191D503A23006DD4DF /* MaxMinTempView.m */,
+				6325BF1B1D503A31006DD4DF /* WindSpeedView.h */,
+				6325BF1C1D503A31006DD4DF /* WindSpeedView.m */,
+			);
+			name = WeatherView;
+			sourceTree = "<group>";
+		};
+		6325BF271D50719C006DD4DF /* OtherFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6325BF281D5071CE006DD4DF /* Lato-Bold.ttf */,
+				6325BF2A1D5071D8006DD4DF /* Lato-ThinItalic.ttf */,
+				6325BF2C1D5071E4006DD4DF /* Lato-Thin.ttf */,
+				6325BF2E1D5071E9006DD4DF /* Lato-Regular.ttf */,
+				6325BF301D5071EE006DD4DF /* Lato-Light.ttf */,
+				6325BF321D5071F7006DD4DF /* Weather&Time.ttf */,
+				630BADE61D4F229000E3A25D /* Main.storyboard */,
+				630BADEB1D4F229000E3A25D /* LaunchScreen.storyboard */,
+				630BADEE1D4F229000E3A25D /* Info.plist */,
+				630BADF41D4F255000E3A25D /* Images.xcassets */,
+			);
+			name = OtherFiles;
+			sourceTree = "<group>";
+		};
+		637FD7051D4F3F0D00BAA8C7 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				6325BF231D5042ED006DD4DF /* WeatherView */,
+				6325BF241D50432D006DD4DF /* TitleMoveLabel.h */,
+				6325BF251D50432D006DD4DF /* TitleMoveLabel.m */,
 			);
 			name = CustomView;
 			sourceTree = "<group>";
@@ -150,8 +234,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				630BADED1D4F229000E3A25D /* LaunchScreen.storyboard in Resources */,
+				6325BF2D1D5071E4006DD4DF /* Lato-Thin.ttf in Resources */,
 				630BADF51D4F255000E3A25D /* Images.xcassets in Resources */,
+				6325BF2B1D5071D8006DD4DF /* Lato-ThinItalic.ttf in Resources */,
+				6325BF2F1D5071E9006DD4DF /* Lato-Regular.ttf in Resources */,
+				6325BF331D5071F7006DD4DF /* Weather&Time.ttf in Resources */,
 				630BADE81D4F229000E3A25D /* Main.storyboard in Resources */,
+				6325BF291D5071CE006DD4DF /* Lato-Bold.ttf in Resources */,
+				6325BF311D5071EE006DD4DF /* Lato-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,10 +252,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6325BF0E1D5039C1006DD4DF /* HumidityView.m in Sources */,
 				630BADE51D4F229000E3A25D /* ViewController.m in Sources */,
+				6325BF1D1D503A31006DD4DF /* WindSpeedView.m in Sources */,
 				630BADE21D4F229000E3A25D /* AppDelegate.m in Sources */,
+				6325BF261D50432D006DD4DF /* TitleMoveLabel.m in Sources */,
 				630BADDF1D4F229000E3A25D /* main.m in Sources */,
+				6325BF141D5039EE006DD4DF /* TemperatureView.m in Sources */,
+				6325BF171D503A05006DD4DF /* SunInfoView.m in Sources */,
+				6325BF1A1D503A23006DD4DF /* MaxMinTempView.m in Sources */,
+				6325BF221D503C97006DD4DF /* UIView+SetRect.m in Sources */,
 				637FD7081D4F3F3400BAA8C7 /* WeatherView.m in Sources */,
+				6325BF111D5039D3006DD4DF /* WeatherInfoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +376,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Imitate_YoCelsius/PrefixHeader.pch";
 				INFOPLIST_FILE = Imitate_YoCelsius/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -291,6 +391,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Imitate_YoCelsius/PrefixHeader.pch";
 				INFOPLIST_FILE = Imitate_YoCelsius/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
