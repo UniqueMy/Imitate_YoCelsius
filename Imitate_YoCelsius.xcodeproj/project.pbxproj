@@ -27,6 +27,8 @@
 		6325BF2F1D5071E9006DD4DF /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6325BF2E1D5071E9006DD4DF /* Lato-Regular.ttf */; };
 		6325BF311D5071EE006DD4DF /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6325BF301D5071EE006DD4DF /* Lato-Light.ttf */; };
 		6325BF331D5071F7006DD4DF /* Weather&Time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6325BF321D5071F7006DD4DF /* Weather&Time.ttf */; };
+		6325C0B81D509D35006DD4DF /* CGRectStoreValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325C0B71D509D35006DD4DF /* CGRectStoreValue.m */; };
+		6345BB6E1D52D56800CFC760 /* UIView+GlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6345BB6D1D52D56800CFC760 /* UIView+GlowView.m */; };
 		637FD7081D4F3F3400BAA8C7 /* WeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 637FD7071D4F3F3400BAA8C7 /* WeatherView.m */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,10 @@
 		6325BF2E1D5071E9006DD4DF /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		6325BF301D5071EE006DD4DF /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		6325BF321D5071F7006DD4DF /* Weather&Time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Weather&Time.ttf"; sourceTree = "<group>"; };
+		6325C0B61D509D35006DD4DF /* CGRectStoreValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRectStoreValue.h; sourceTree = "<group>"; };
+		6325C0B71D509D35006DD4DF /* CGRectStoreValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRectStoreValue.m; sourceTree = "<group>"; };
+		6345BB6C1D52D56800CFC760 /* UIView+GlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GlowView.h"; sourceTree = "<group>"; };
+		6345BB6D1D52D56800CFC760 /* UIView+GlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GlowView.m"; sourceTree = "<group>"; };
 		637FD7061D4F3F3400BAA8C7 /* WeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherView.h; sourceTree = "<group>"; };
 		637FD7071D4F3F3400BAA8C7 /* WeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +109,8 @@
 				630BADE31D4F229000E3A25D /* ViewController.h */,
 				630BADE41D4F229000E3A25D /* ViewController.m */,
 				6325BF1E1D503AB6006DD4DF /* PrefixHeader.pch */,
-				6325BF1F1D503C31006DD4DF /* SetRect */,
+				6325C0B51D509D18006DD4DF /* CGRectStoreValue */,
+				6325BF1F1D503C31006DD4DF /* SetView */,
 				637FD7051D4F3F0D00BAA8C7 /* CustomView */,
 				6325BF271D50719C006DD4DF /* OtherFiles */,
 				630BADDD1D4F229000E3A25D /* Supporting Files */,
@@ -119,13 +126,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6325BF1F1D503C31006DD4DF /* SetRect */ = {
+		6325BF1F1D503C31006DD4DF /* SetView */ = {
 			isa = PBXGroup;
 			children = (
 				6325BF201D503C97006DD4DF /* UIView+SetRect.h */,
 				6325BF211D503C97006DD4DF /* UIView+SetRect.m */,
+				6345BB6C1D52D56800CFC760 /* UIView+GlowView.h */,
+				6345BB6D1D52D56800CFC760 /* UIView+GlowView.m */,
 			);
-			name = SetRect;
+			name = SetView;
 			sourceTree = "<group>";
 		};
 		6325BF231D5042ED006DD4DF /* WeatherView */ = {
@@ -164,6 +173,15 @@
 				630BADF41D4F255000E3A25D /* Images.xcassets */,
 			);
 			name = OtherFiles;
+			sourceTree = "<group>";
+		};
+		6325C0B51D509D18006DD4DF /* CGRectStoreValue */ = {
+			isa = PBXGroup;
+			children = (
+				6325C0B61D509D35006DD4DF /* CGRectStoreValue.h */,
+				6325C0B71D509D35006DD4DF /* CGRectStoreValue.m */,
+			);
+			name = CGRectStoreValue;
 			sourceTree = "<group>";
 		};
 		637FD7051D4F3F0D00BAA8C7 /* CustomView */ = {
@@ -252,6 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6345BB6E1D52D56800CFC760 /* UIView+GlowView.m in Sources */,
+				6325C0B81D509D35006DD4DF /* CGRectStoreValue.m in Sources */,
 				6325BF0E1D5039C1006DD4DF /* HumidityView.m in Sources */,
 				630BADE51D4F229000E3A25D /* ViewController.m in Sources */,
 				6325BF1D1D503A31006DD4DF /* WindSpeedView.m in Sources */,
