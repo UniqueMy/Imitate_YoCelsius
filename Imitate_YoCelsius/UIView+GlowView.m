@@ -110,7 +110,55 @@ static char glowDurationFlag;
     // 用指定的混合模式和透明度值来描绘受接收路径所包围的区域
     [path fillWithBlendMode:kCGBlendModeSourceAtop alpha:1.f];
     
+    CALayer *glowLayer = [CALayer layer];
+    glowLayer.name     = GLOWVIEW_LAYER_FLAG;
+    glowLayer.frame    = self.bounds;
     
+    // contents表示接受的内容
+    glowLayer.contents = (__bridge id)UIGraphicsGetImageFromCurrentImageContext().CGImage;
+    
+    // 透明度
+    glowLayer.opacity       = 0.f; // 开始时候的透明度为0
+    
+    // 设置阴影的透明度(0~1之间，0表示完全透明)
+    glowLayer.shadowOpacity = 1.f;
+    
+    // 设置阴影的偏移量，如果为正数，则代表为往右边偏移
+    glowLayer.shadowOffset = CGSizeMake(0, 0);
+    
+    // 设置阴影的颜色
+    glowLayer.shadowColor  = (color == nil ? [UIColor redColor].CGColor : color.CGColor);
+    
+    // 设置阴影的半径
+    glowLayer.shadowRadius = (radius > 0 ? radius : 2.f);
+    
+    [self.layer addSublayer:glowLayer];
+    
+    // 关闭上下文
+    UIGraphicsEndImageContext();
+}
+
+- (void)startGlow {
+    
+    // 遍历
+    [self.layer.sublayers enumerateObjectsUsingBlock:^(CALayer * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        
+        CALayer *layer = obj;
+        
+        // 找到layer再进行下面操作
+        
+        if ([layer.name isEqualToString:GLOWVIEW_LAYER_FLAG]) {
+            
+            if (self.glowViewShowFlag == nil) {
+                self.glowViewShowFlag = [NSNumber numberWithBool:NO];
+            }
+            
+            if (self.dispatchSource == nil) {
+                
+                
+            }
+        }
+    }];
 }
 
 @end
